@@ -10,13 +10,17 @@ This GRPO training requires at least two A100 GPUs. One is used for training the
 
 ## Setup
 This repo use `uv` to manage dependencies.
+1. install uv
+```
+pip install uv
+```
 
-1. Install all packages except `flash-attn`, then install the rest
+2. Install all packages except `flash-attn`, then install the rest
 ```
 uv sync --no-install-package flash-attn
 uv sync
 ```
-2. Run the command 
+3. Run the command 
 ```
 python scripts/grpo_trainer.py \
     --input-path "./data/gsm8k/sft_with_answer.jsonl" \
