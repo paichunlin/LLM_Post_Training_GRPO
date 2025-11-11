@@ -1,7 +1,7 @@
 # GRPO Group Relative Policy Optimization
 This repo implements Group Relative Policy Optimization from these papers 
-    * DeepSeekMath: https://arxiv.org/pdf/2402.03300
-    * DeepSeek-R1: https://arxiv.org/abs/2501.12948
+* DeepSeekMath: https://arxiv.org/pdf/2402.03300
+* DeepSeek-R1: https://arxiv.org/abs/2501.12948
     
 I also have improved it further based on the following three papers:
 * DAPO: https://arxiv.org/pdf/2503.14476
