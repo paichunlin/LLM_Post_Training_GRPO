@@ -1,6 +1,6 @@
 # GRPO Group Relative Policy Optimization
 This repo implements Group Relative Policy Optimization from this paper https://arxiv.org/pdf/2402.03300.
-I also have improved it further based on the following two papers:
+I also have improved it further based on the following three papers:
 * DAPO: https://arxiv.org/pdf/2503.14476
 * GRPO+: https://www.together.ai/blog/deepcoder
 * DrGRPO: https://arxiv.org/pdf/2503.20783
