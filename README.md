@@ -1,10 +1,10 @@
-# Efficient LLM Post Training: Beyond GRPO
+### Efficient LLM Post Training: Beyond GRPO
 I extended GRPO, DAPO, DrGRPO to investigate more efficient ways to do LLM post-training.
 
-## Multi-GPU Setup
+### Multi-GPU Setup
 This GRPO training requires at least two A100 GPUs. One is used for training the model. The other is used for evaluation and rollout.
 
-## Setup
+### Setup
 This repo use `uv` to manage dependencies.
 1. install uv
 ```
