@@ -1,12 +1,5 @@
-# GRPO Group Relative Policy Optimization
-This repo implements Group Relative Policy Optimization from these papers 
-* DeepSeekMath: https://arxiv.org/pdf/2402.03300
-* DeepSeek-R1: https://arxiv.org/abs/2501.12948
-    
-I also have improved it further based on the following three papers:
-* DAPO: https://arxiv.org/pdf/2503.14476
-* GRPO+: https://www.together.ai/blog/deepcoder
-* DrGRPO: https://arxiv.org/pdf/2503.20783
+# Efficient LLM Post Training: Beyond GRPO
+I extended GRPO, DAPO, DrGRPO to investigate more efficient ways to do LLM post-training.
 
 ## Multi-GPU Setup
 This GRPO training requires at least two A100 GPUs. One is used for training the model. The other is used for evaluation and rollout.
