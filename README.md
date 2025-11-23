@@ -1,5 +1,5 @@
 ### Efficient LLM Post Training: Beyond GRPO
-I extended GRPO, DAPO, DrGRPO to investigate more efficient ways to do LLM post-training.
+I implemented DeepSeekMath's GRPO from the ground up and extended it with state-of-art research findings from DAPO, DrGRPO, more; investigated more efficient way to do LLM post-training and agentic reasoning.
 
 ### Multi-GPU Setup
 This GRPO training requires at least two A100 GPUs. One is used for training the model. The other is used for evaluation and rollout.
