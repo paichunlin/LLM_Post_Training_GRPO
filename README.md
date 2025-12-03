@@ -2,7 +2,7 @@
 I implemented DeepSeek's GRPO from the ground up and extended it with state-of-art research findings from DAPO and others for hard math reasoning and agentic reasoning.
 
 ### Multi-GPU Setup
-This GRPO training requires at least two A100 GPUs. One is used for training the model. The other is used for evaluation and rollout.
+This GRPO training requires at least two A100 or H100 GPUs. One is used for training the model. The other is used for evaluation and rollout with vLLM.
 
 ### Setup
 This repo use `uv` to manage dependencies.
