@@ -1,4 +1,4 @@
-### LLM Post Training: Beyond GRPO for hard math reasoning and agentic reasoning
+### Efficient LLM Post Training: Beyond GRPO for hard math reasoning and agentic reasoning
 I implemented DeepSeek's GRPO from the ground up and extended it with state-of-art research findings from DAPO and others for hard math reasoning and agentic reasoning.
 
 Primary Contact: <a href="https://www.linkedin.com/in/paichunjimlin">Paichun Lin's LinkedIn</a> | paichul@cs.stanford.edu
