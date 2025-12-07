@@ -6,7 +6,7 @@ Primary Contact: <a href="https://www.linkedin.com/in/paichunjimlin">Paichun Lin
 ### Multi-GPU Setup
 This GRPO training requires at least two A100 or H100 GPUs. One is used for training the model. The other is used for evaluation and rollout; vLLM is enabled for efficient evaluation and rollout.
 
-I further scaled up the training with Ray / verl / Nemo RL.
+Infra support: vLLM / Ray / verl / Nemo RL.
 
 ### Setup
 This repo use `uv` to manage dependencies.
